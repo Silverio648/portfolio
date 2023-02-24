@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tourney', cursive;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/background1.jpg);
+    height: 450px;
+    background-color: #000000;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.PORTFÓLIO {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.PORTFÓLIO span {
+    color: violet;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white
+}
+
+.meu-nome h3 {
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+h1 span {
+    color: violet;
+}
+
+p {
+    color: violet;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: auto;
+    background-color: #000000;
+}
+
+h3 span {
+    color: violet;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: violet;
+    transition: 0.5s;
+}
+
+ul {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #000000;
+}
+
+section img {
+    height: 350px;
+    border-radius: 100%;
+    border: 4px solid violet;
+    margin-left: 40px;
+}
+
+section div h2 {
+    font-size: 200px;
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+section div h2 span {
+    color: violet;
+}
+
+section div p {
+    color: violet;
+    font-size: 25px;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+section div button {
+    color: white;
+    background: violet;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+section div button:hover {
+    background-color: #000000;
+    border: 3px solid violet;
+    transition: 0.5s;   
+}
