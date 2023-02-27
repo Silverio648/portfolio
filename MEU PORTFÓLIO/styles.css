@@ -136,3 +136,10 @@ section div button:hover {
     border: 3px solid violet;
     transition: 0.5s;   
 }
+
+footer {
+padding: 0;
+border-top: 1px solid violet;
+margin-top: 3px;
+color: #fff;
+}
