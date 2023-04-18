@@ -12,7 +12,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- JS DO PROJETO -->
-    <script src="scripts.js" type="text/javascript"></script>
+    <script src="scripts.js" defer></script>
 
     <title> Todo Avançado</title>
 
@@ -23,19 +23,19 @@
         <header>
             <h1>Todo Avançado</h1>
         </header>
-        <form id="todo-form" class="hide">
+        <form id="todo-form">
             <p>Adicione a sua tarefa:</p>
             <div class="form-control">
-                <input type="text" id="todo-input" placeholder="O que você vai fazer?">
+                <input type="text" id="todo-input" placeholder="O que você vai fazer?"/>
                 <button type="submit">
-                    <i class="fan-thin fa-plus"></i>
+                    <i class="fa-thin fa-plus"></i>
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite a sua tarefa:</p>
             <div class="form-control">
-                <input type="text" id="edit-input">
+                <input type="text" id="edit-input" />
                 <button type="submit">
                     <i class="fa-solid fa-check-double"></i>
                 </button>
@@ -46,7 +46,7 @@
             <div id="search">
                 <h4>Pesquisar:</h4>
                 <form>
-                    <input type="text" id="search-input" placeholder="buscar">
+                    <input type="text" id="search-input" placeholder="Buscar..." />
                     <button id="erase-button">
                         <i class="fa-solid fa-delete-left"></i>
                     </button>
@@ -62,10 +62,11 @@
             </div>
         </div>
         <div id="todo-list">
-            <div class="todo done">
-                <h3>Estou fazendo alguma coisa...</h3>
+            <!--Template-->
+            <div class="todo">
+                <h3>Estou fazendo algo aqui...</h3>
                 <button class="finish-todo">
-                    <i class="fa-solid fa-chech"></i>
+                    <i class="fa-solid fa-check"></i>
                 </button>
                 <button class="edit-todo">
                     <i class="fa-solid fa-pen"></i>

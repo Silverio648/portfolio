@@ -3,20 +3,20 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    color: #333;
+    color: rgb(0, 0, 0);
     box-sizing: border-box;
 }
 
 body {
-    background-image: url("../img/background1.jpg");
+    background-image: url("../img/background1.jpeg");
     background-position: center;
     background-size: cover;
 }
 
 button {
     background-color: #fdfdfd;
-    color: #102f5e;
-    border: 2px solid #102f5e;
+    color: #a6c7fa;
+    border: 2px solid #ffffff;
     padding: 0.3rem 0.6rem;
     font-size: 1rem;
     cursor: pointer;
@@ -27,25 +27,26 @@ button {
 }
 
 button:hover {
-    background-color: #102f5e;
-    color: #fff;
+    background-color: #983de8;
+    color: #000000;
 }
 
-button:hover > i {
-color: #fff;
+button:hover>i {
+    color: #fff;
 
 }
 
 button i {
-color: #102f5e;
-font-weight: bold;
-pointer-events: none;
+    color: #983de8;
+    font-weight: bold;
+    pointer-events: none;
 
 }
 
-input, select {
+input,
+select {
     padding: .25rem 0.5rem;
-    
+
 }
 
 .hide {
@@ -57,7 +58,7 @@ input, select {
 .todo-container {
     max-width: 450px;
     margin: 3rem auto;
-    background-color: #fdfdfd;
+    background-color: #591693;
     padding: 1.5rem;
     border-radius: 15px;
 }
@@ -65,18 +66,19 @@ input, select {
 .todo-container header {
     text-align: center;
     padding: 0 1em 1rem;
-    border-bottom: 1px solid #ccc;
-    
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Todo Form */
-#todo-form, #edit-form {
+#todo-form,
+#edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
-    
+    border-bottom: 2px solid #ffffff;
+
 }
 
-#todo-form p, #edit-form p {
+#todo-form p,
+#edit-form p {
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
@@ -92,12 +94,13 @@ input, select {
 
 #cancel-edit-btn {
     margin-top: 1rem;
+    color: #000000;
 }
 
 /* Todo toolbar */
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ffffff;
     display: flex;
 }
 
@@ -106,7 +109,7 @@ input, select {
 }
 
 #search {
-    border-right: 1px solid #ddd;
+    border-right: 2px solid #ffffff;
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -133,15 +136,15 @@ input, select {
     flex: 1;
 }
 
- /* Todo List */
- .todo {
+/* Todo List */
+.todo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
-    transition: .3s;
- }
+    padding: 1rem 1rem;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.3s;
+}
 
 .todo h3 {
     flex: 1;
@@ -149,12 +152,12 @@ input, select {
 }
 
 .todo button {
-    margin-left: 0.4rem;   
+    margin-left: 0.4rem;
 
 }
 
 .done {
-    background-color: #395169;
+    background: #983de8;
 }
 
 .done h3 {
